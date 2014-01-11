@@ -37,14 +37,6 @@ set autochdir
 " show only filename in tab name, not full path
 set guitablabel=%t
 
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
-
-Bundle 'tomtom/tlib_vim'
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'garbas/vim-snipmate'
-Bundle 'honza/vim-snippets'
-
 if has('python')
   Bundle 'editorconfig/editorconfig-vim'
 endif
