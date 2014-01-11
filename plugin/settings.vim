@@ -46,10 +46,10 @@ inoremap <C-t>     <Esc>:tabnew<CR>
 " show only filename in tab name, not full path
 set guitablabel=%t
 
-set rtp+=$VIMRUNTIME/bundle/vundle
-call vundle#rc('$VIMRUNTIME/bundle')
+" set rtp+=$VIMRUNTIME/bundle/vundle
+" call vundle#rc('$VIMRUNTIME/bundle')
 
-Bundle 'andrezsanchez/azs-vim-settings'
+" Bundle 'AndreZSanchez/azs-vim-settings'
 
 Bundle 'gmarik/vundle'
 
