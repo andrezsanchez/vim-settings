@@ -8,7 +8,7 @@ If I want to change something, I make the change in the repository downloaded by
 commit and push the changes to Github so that I can pull them from my other machines using
 `BundleUpdate` in Vim.
 
-Liscense
+License
 --------
 
 MIT
