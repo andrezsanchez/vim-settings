@@ -1,5 +1,4 @@
 set nocompatible
-filetype off
 
 set enc=utf8
 
@@ -46,11 +45,6 @@ inoremap <C-t>     <Esc>:tabnew<CR>
 " show only filename in tab name, not full path
 set guitablabel=%t
 
-" set rtp+=$VIMRUNTIME/bundle/vundle
-" call vundle#rc('$VIMRUNTIME/bundle')
-
-" Bundle 'AndreZSanchez/azs-vim-settings'
-
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
@@ -66,8 +60,6 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'wting/rust.vim'
 Bundle 'jnwhiteh/vim-golang'
 Bundle 'wavded/vim-stylus'
-
-Bundle 'flazz/vim-colorschemes'
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
@@ -90,23 +82,3 @@ Bundle 'tpope/vim-repeat'
 Bundle 'bkad/CamelCaseMotion'
 
 Bundle 'mxw/vim-jsx'
-
-Bundle 'terryma/vim-smooth-scroll'
-" noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 12, 2)<CR>
-" noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 12, 2)<CR>
-" noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 12, 4)<CR>
-" noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 12, 4)<CR>
-
-" set t_Co=256
-" colorscheme jellybeans
-" colorscheme moria
-" colorscheme ingretu
-" colorscheme nature
-" colorscheme blackboard
-" colorscheme colorer
-" colorscheme blacklight
-colorscheme BlackSea
-" colorscheme mayansmoke
-
-filetype plugin indent on     " required!
-
