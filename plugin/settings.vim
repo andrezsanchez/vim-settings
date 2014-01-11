@@ -36,18 +36,3 @@ set autochdir
 
 " show only filename in tab name, not full path
 set guitablabel=%t
-
-if has('python')
-  Bundle 'editorconfig/editorconfig-vim'
-endif
-
-Bundle 'kien/ctrlp.vim'
-let g:ctrlp_custom_ignore='node_modules'
-let g:ctrlp_root_markers = ['.git', 'node_modules']
-
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-
-Bundle 'bkad/CamelCaseMotion'
-
