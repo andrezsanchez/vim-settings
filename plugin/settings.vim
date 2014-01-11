@@ -34,14 +34,6 @@ set noswapfile
 
 set autochdir
 
-nnoremap <C-S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap <C-t>     :tabnew<CR>
-
-inoremap <C-S-tab> <Esc>:tabprevious<CR>i
-inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
-
 " show only filename in tab name, not full path
 set guitablabel=%t
 
