@@ -45,10 +45,6 @@ inoremap <C-t>     <Esc>:tabnew<CR>
 " show only filename in tab name, not full path
 set guitablabel=%t
 
-Bundle 'gmarik/vundle'
-
-" My Bundles here:
-
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
 
