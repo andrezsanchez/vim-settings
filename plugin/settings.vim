@@ -48,18 +48,6 @@ set guitablabel=%t
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
-Bundle 'pangloss/vim-javascript'
-" Bundle 'marijnh/tern_for_vim'
-
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'groenewege/vim-less'
-Bundle 'tpope/vim-markdown'
-Bundle 'mintplant/vim-literate-coffeescript'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'wting/rust.vim'
-Bundle 'jnwhiteh/vim-golang'
-Bundle 'wavded/vim-stylus'
 
 Bundle 'scrooloose/nerdtree'
 Bundle 'jistr/vim-nerdtree-tabs'
@@ -69,7 +57,9 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
 
-Bundle 'editorconfig/editorconfig-vim'
+if has('python')
+  Bundle 'editorconfig/editorconfig-vim'
+endif
 
 Bundle 'kien/ctrlp.vim'
 let g:ctrlp_custom_ignore='node_modules'
@@ -81,4 +71,3 @@ Bundle 'tpope/vim-repeat'
 
 Bundle 'bkad/CamelCaseMotion'
 
-Bundle 'mxw/vim-jsx'
