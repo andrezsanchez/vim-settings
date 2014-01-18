@@ -36,3 +36,5 @@ set autochdir
 
 " show only filename in tab name, not full path
 set guitablabel=%t
+
+set t_Co=256
