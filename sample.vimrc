@@ -1,15 +1,7 @@
 " Sample .vimrc to load my configuration
 
-filetype off
-
 " let g:currentcomputer='ubuntu-server'
 " let g:currentcomputer='windows'
 let g:currentcomputer='ubuntu-desktop'
 
-set rtp+=$VIMRUNTIME/bundle/vim-settings
-set rtp+=$VIMRUNTIME/bundle/vundle
-call vundle#rc('$VIMRUNTIME/bundle')
-
-Bundle 'AndreZSanchez/vim-settings'
-
-filetype plugin indent on
+source ~/code/etc/vim-settings/main.vim
