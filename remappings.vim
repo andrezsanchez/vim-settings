@@ -4,7 +4,6 @@ nnoremap t         :tabnew<CR>
 
 inoremap <C-S-tab> <Esc>:tabprevious<CR>i
 inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap t         <Esc>:tabnew<CR>
 
 nnoremap <Space> :NERDTreeToggle<CR><C-w>l
 nnoremap z <C-w>
