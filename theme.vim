@@ -11,7 +11,7 @@ Bundle 'flazz/vim-colorschemes'
 " colorscheme mayansmoke
 
 if currentcomputer == 'ubuntu-desktop'
-  colorscheme BlackSea
+  colorscheme nature
 elseif currentcomputer == 'ubuntu-server'
   colorscheme ingretu
 elseif currentcomputer == 'windows'
