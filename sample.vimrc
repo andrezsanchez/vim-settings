@@ -4,4 +4,5 @@
 " let g:currentcomputer='windows'
 let g:currentcomputer='ubuntu-desktop'
 
-source ~/code/etc/vim-settings/main.vim
+" Set this to where this repo is installed
+source ~/vim-settings/main.vim
