@@ -4,5 +4,9 @@
 " let g:currentcomputer='windows'
 let g:currentcomputer='ubuntu-desktop'
 
+let cwd=getcwd()
+
 cd ~/vim-settings/
 source main.vim
+
+cd `=cwd`
