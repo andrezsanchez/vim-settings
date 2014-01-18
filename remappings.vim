@@ -8,6 +8,9 @@ inoremap <C-tab>   <Esc>:tabnext<CR>i
 nnoremap <Space> :NERDTreeToggle<CR><C-w>l
 nnoremap z <C-w>
 
+nnoremap ,m :tabprevious<CR>
+nnoremap m :tabnext<CR>
+
 Bundle 'kien/ctrlp.vim'
 let g:ctrlp_custom_ignore='node_modules'
 let g:ctrlp_root_markers = ['.git', 'node_modules']
