@@ -14,5 +14,6 @@ source ./snippets.vim
 source ./syntax.vim
 source ./theme.vim
 source ./settings.vim
+source ./tabs.vim
 
 filetype plugin indent on
