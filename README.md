@@ -3,7 +3,7 @@ To use this from a new computer I must install Vim, clone this repo, put the sam
 in my profile (making sure to point it to main.vim in the newly cloned repo), and install Vundle
 normally.
 
-If I want to change something, I simple make the change in the vim-settings repo, and then
+If I want to change something, I simply make the change in the vim-settings repo, and then
 commit and push the changes to Github so that I can pull them from my other machines.
 
 License
