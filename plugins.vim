@@ -1,1 +1,1 @@
-Bundle 'tpope/fugitive'
+Bundle 'tpope/vim-fugitive'
