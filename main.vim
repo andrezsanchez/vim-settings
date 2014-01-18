@@ -13,7 +13,10 @@ source ./scroll.vim
 source ./snippets.vim
 source ./syntax.vim
 source ./theme.vim
-source ./settings.vim
 source ./tabs.vim
+source ./plugins.vim
+
+
+source ./settings.vim
 
 filetype plugin indent on
