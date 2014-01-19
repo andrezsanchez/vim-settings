@@ -6,7 +6,6 @@ set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 Bundle 'gmarik/vundle'
 
-source ./remappings.vim
 source ./nerdtree.vim
 source ./editorconfig.vim
 source ./scroll.vim
@@ -15,6 +14,7 @@ source ./syntax.vim
 source ./theme.vim
 source ./tabs.vim
 source ./plugins.vim
+source ./remappings.vim
 
 
 source ./settings.vim
