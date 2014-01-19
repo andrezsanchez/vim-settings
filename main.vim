@@ -1,10 +1,10 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/neobundle.vim
 
-call vundle#rc()
-Bundle 'gmarik/vundle'
+call neobundle#rc()
+NeoBundle 'Shougo/neobundle.vim'
 
 source ./nerdtree.vim
 source ./editorconfig.vim
@@ -20,3 +20,5 @@ source ./remappings.vim
 source ./settings.vim
 
 filetype plugin indent on
+
+NeoBundleCheck

@@ -1,6 +1,6 @@
-Bundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-fugitive'
 
 
 " Keep status bar open always
 set laststatus=2
-Bundle 'bling/vim-airline'
+NeoBundle 'bling/vim-airline'

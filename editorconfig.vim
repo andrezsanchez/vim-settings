@@ -1,3 +1,3 @@
 if has('python')
-  Bundle 'editorconfig/editorconfig-vim'
+  NeoBundle 'editorconfig/editorconfig-vim'
 endif

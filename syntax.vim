@@ -1,16 +1,16 @@
 " Syntax highlighting stuffz
 
-Bundle 'pangloss/vim-javascript'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'mintplant/vim-literate-coffeescript'
-Bundle 'digitaltoad/vim-jade'
-Bundle 'wavded/vim-stylus'
-Bundle 'groenewege/vim-less'
-Bundle 'mxw/vim-jsx'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'mintplant/vim-literate-coffeescript'
+NeoBundle 'digitaltoad/vim-jade'
+NeoBundle 'wavded/vim-stylus'
+NeoBundle 'groenewege/vim-less'
+NeoBundle 'mxw/vim-jsx'
 
-Bundle 'tpope/vim-markdown'
+NeoBundle 'tpope/vim-markdown'
 
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'wting/rust.vim'
-Bundle 'jnwhiteh/vim-golang'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'wting/rust.vim'
+NeoBundle 'jnwhiteh/vim-golang'
 

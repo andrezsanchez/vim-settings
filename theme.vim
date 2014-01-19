@@ -1,4 +1,4 @@
-Bundle 'flazz/vim-colorschemes'
+NeoBundle 'flazz/vim-colorschemes'
 
 " colorscheme jellybeans
 " colorscheme moria

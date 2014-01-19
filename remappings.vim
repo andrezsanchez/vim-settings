@@ -11,11 +11,11 @@ nnoremap z <C-w>
 nnoremap ,m :tabprevious<CR>
 nnoremap m :tabnext<CR>
 
-Bundle 'kien/ctrlp.vim'
+NeoBundle 'kien/ctrlp.vim'
 let g:ctrlp_custom_ignore='node_modules'
 let g:ctrlp_root_markers = ['.git', 'node_modules']
 
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'tpope/vim-repeat'
 
-Bundle 'bkad/CamelCaseMotion'
+NeoBundle 'bkad/CamelCaseMotion'

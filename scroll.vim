@@ -1,5 +1,5 @@
 if currentcomputer == 'windows'
-  Bundle 'terryma/vim-smooth-scroll'
+  NeoBundle 'terryma/vim-smooth-scroll'
 
   noremap <silent> <c-u> :call smooth_scroll#up(&scroll, 12, 2)<CR>
   noremap <silent> <c-d> :call smooth_scroll#down(&scroll, 12, 2)<CR>
