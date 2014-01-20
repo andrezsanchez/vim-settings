@@ -13,6 +13,8 @@ nnoremap m :tabnext<CR>
 
 nnoremap sv :w<CR>
 
+inoremap jj <Esc>
+
 NeoBundle 'kien/ctrlp.vim'
 let g:ctrlp_custom_ignore='node_modules'
 let g:ctrlp_root_markers = ['.git', 'node_modules']
