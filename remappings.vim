@@ -15,6 +15,9 @@ nnoremap sv :w<CR>
 
 inoremap jj <Esc>
 
+nnoremap <Space>[ O<Esc>j
+nnoremap <Space>] o<Esc>k
+
 NeoBundle 'kien/ctrlp.vim'
 let g:ctrlp_custom_ignore='node_modules'
 let g:ctrlp_root_markers = ['.git', 'node_modules']
