@@ -43,3 +43,4 @@ set autochdir
 set guitablabel=%t
 
 set t_Co=256
+syntax on
