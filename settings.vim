@@ -37,7 +37,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 
-set autochdir
+" set autochdir
 
 " show only filename in tab name, not full path
 set guitablabel=%t
