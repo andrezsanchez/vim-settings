@@ -8,8 +8,8 @@ inoremap <C-tab>   <Esc>:tabnext<CR>i
 nnoremap <Space><Space> :NERDTreeToggle<CR><C-w>l
 nnoremap z <C-w>
 
-nnoremap ,m :tabprevious<CR>
-nnoremap m :tabnext<CR>
+nnoremap <S-m> :tabprevious<CR>
+nnoremap m     :tabnext<CR>
 
 nnoremap sv :w<CR>
 
