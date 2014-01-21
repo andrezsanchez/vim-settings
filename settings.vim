@@ -12,6 +12,11 @@ set textwidth=100
 set showmatch
 set visualbell
 set mouse=a
+
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r
+set guioptions-=e
  
 set hlsearch
 set smartcase
