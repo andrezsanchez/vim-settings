@@ -13,7 +13,7 @@ nnoremap m     :tabnext<CR>
 
 nnoremap sv :w<CR>
 
-inoremap jj <Esc>
+inoremap jh <Esc>
 
 nnoremap <Space>[ O<Esc>j
 nnoremap <Space>] o<Esc>k
