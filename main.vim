@@ -8,7 +8,6 @@ NeoBundle 'Shougo/neobundle.vim'
 
 source ./nerdtree.vim
 source ./editorconfig.vim
-source ./scroll.vim
 source ./snippets.vim
 source ./syntax.vim
 source ./theme.vim
