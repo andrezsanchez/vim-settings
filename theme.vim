@@ -15,5 +15,6 @@ if currentcomputer == 'ubuntu-desktop'
 elseif currentcomputer == 'ubuntu-server'
   colorscheme ingretu
 elseif currentcomputer == 'windows'
+  set guifont=Consolas:h10:cANSI
   colorscheme mayansmoke
 endif
