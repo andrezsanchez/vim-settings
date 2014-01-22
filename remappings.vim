@@ -2,6 +2,7 @@ nnoremap z <C-w>
 
 nnoremap <S-m> :tabprevious<CR>
 nnoremap m     :tabnext<CR>
+nnoremap t     :tabnew<CR>
 
 nnoremap sv :w<CR>
 
