@@ -9,3 +9,7 @@ NeoBundle 'DataWraith/auto_mkdir'
 
 NeoBundle 'Shougo/unite.vim'
 nnoremap <Space>f :<C-u>Unite -start-insert file<CR>
+
+NeoBundle 'Shougo/vimfiler.vim'
+nnoremap <Space><Space> :VimFiler -buffer-name=explorer
+  \ -split -simple -winwidth=35 -toggle -no-quit<CR>
