@@ -22,10 +22,6 @@ nnoremap <Space>s :Gstatus<CR>
 nnoremap <Space>c :Gcommit<CR>
 nnoremap <Space>d :Gdiff<CR>
 
-NeoBundle 'kien/ctrlp.vim'
-let g:ctrlp_custom_ignore='node_modules'
-let g:ctrlp_root_markers = ['.git', 'node_modules']
-
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'tpope/vim-repeat'
 
