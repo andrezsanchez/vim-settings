@@ -6,7 +6,6 @@ set rtp+=~/.vim/bundle/neobundle.vim
 call neobundle#rc()
 NeoBundle 'Shougo/neobundle.vim'
 
-source ./nerdtree.vim
 source ./editorconfig.vim
 source ./windows.vim
 source ./snippets.vim
