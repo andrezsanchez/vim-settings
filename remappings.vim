@@ -1,10 +1,3 @@
-nnoremap <C-S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap t         :tabnew<CR>
-
-inoremap <C-S-tab> <Esc>:tabprevious<CR>i
-inoremap <C-tab>   <Esc>:tabnext<CR>i
-
 nnoremap z <C-w>
 
 nnoremap <S-m> :tabprevious<CR>
