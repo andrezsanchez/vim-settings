@@ -1,12 +1,11 @@
-NeoBundle 'AndreZSanchez/vim-snippets'
+NeoBundle 'AndreZSanchez/neosnippet-snippets'
 
 NeoBundle 'Shougo/neosnippet.vim'
 
-imap <Tab>     <Plug>(neosnippet_expand_or_jump)
-smap <Tab>     <Plug>(neosnippet_expand_or_jump)
-xmap <Tab>     <Plug>(neosnippet_expand_target)
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
 
 if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
-let g:neosnippet#enable_snipmate_compatibility = 1
