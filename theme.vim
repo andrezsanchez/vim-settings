@@ -1,4 +1,6 @@
 NeoBundle 'flazz/vim-colorschemes'
+NeoBundle 'merhetz/gruvbox'
+NeoBundle 'wjakob/vim-tomorrow-night'
 
 " colorscheme jellybeans
 " colorscheme moria
