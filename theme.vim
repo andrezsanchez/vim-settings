@@ -16,6 +16,8 @@ if currentcomputer == 'ubuntu-desktop'
   colorscheme nature
 elseif currentcomputer == 'ubuntu-server'
   colorscheme ingretu
+elseif currentcomputer == 'rel5'
+  colorscheme Tomorrow-Night
 elseif currentcomputer == 'windows'
   set guifont=Consolas:h10:cANSI
   colorscheme mayansmoke
