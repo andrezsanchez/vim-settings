@@ -1,5 +1,5 @@
 NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'merhetz/gruvbox'
+NeoBundle 'morhetz/gruvbox'
 NeoBundle 'chriskempson/vim-tomorrow-theme'
 
 " colorscheme jellybeans
