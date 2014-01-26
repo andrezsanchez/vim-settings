@@ -1,5 +1,8 @@
 NeoBundle 'tpope/vim-fugitive'
 
+NeoBundle 'Raimondi/delimitMate'
+let delimitMate_expand_cr = 2
+let delimitMate_expand_space = 1
 
 " Keep status bar open always
 set laststatus=2
