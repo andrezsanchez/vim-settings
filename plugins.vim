@@ -18,9 +18,6 @@ NeoBundle 'Shougo/unite.vim'
 nnoremap <Space>f :<C-u>Unite -start-insert file_rec<CR>
 
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
-call unite#define_filter({'name': 'node_modules', 'filter': 'lib/**'})
-
-call unite#custom#source('yeah', 'filters', ['node_modules'])
 
 call unite#custom#source('buffer,file,file_mru,file_rec',
 \ 'sorters', 'sorter_rank')
