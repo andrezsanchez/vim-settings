@@ -7,6 +7,8 @@ nnoremap t     :tabnew<CR>
 nnoremap sv :w<CR>
 
 inoremap jh <Esc>
+inoremap sf <Esc>
+vnoremap sf <Esc>
 
 nnoremap <Space>[ O<Esc>j
 nnoremap <Space>] o<Esc>k
