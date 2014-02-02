@@ -30,5 +30,5 @@ call unite#custom#source('file_rec,file_rec/async,file_mru,file,buffer,grep',
 
 NeoBundle 'Shougo/vimfiler.vim'
 
-nnoremap <Space><Space> :VimFiler -buffer-name=explorer
+nnoremap <Space>n :VimFiler -buffer-name=explorer
   \ -split -simple -winwidth=35 -toggle -no-quit<CR>
