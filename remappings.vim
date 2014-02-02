@@ -10,6 +10,9 @@ inoremap jh <Esc>
 inoremap sf <Esc>
 vnoremap sf <Esc>
 
+nnoremap <Space>v <S-v>
+vnoremap <Space>v <S-v>
+
 nnoremap <Space>[ O<Esc>j
 nnoremap <Space>] o<Esc>k
 
