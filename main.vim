@@ -13,7 +13,6 @@ source ./syntax.vim
 source ./theme.vim
 source ./tabs.vim
 source ./plugins.vim
-source ./vimshell.vim
 source ./remappings.vim
 
 
