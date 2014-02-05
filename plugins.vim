@@ -26,6 +26,7 @@ call unite#custom#source('buffer,file,file_mru,file_rec',
 call unite#custom#source('file_rec,file_rec/async,file_mru,file,buffer,grep',
       \ 'ignore_pattern', join([
       \ '\.git/',
+      \ 'vendor/',
       \ 'node_modules/'
       \ ], '\|'))
 
