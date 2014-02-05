@@ -10,6 +10,7 @@ NeoBundle 'bling/vim-airline'
 
 NeoBundle 'DataWraith/auto_mkdir'
 
+let g:unite_enable_ignore_case = 1
 let g:unite_source_grep_default_opts =
 \ '--line-numbers --nocolor --nogroup --hidden' .
 \ ' --ignore ''.git'' --ignore ''node_modules'''
