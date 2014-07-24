@@ -2,12 +2,9 @@ NeoBundle 'AndreZSanchez/neosnippet-snippets'
 
 NeoBundle 'Shougo/neosnippet.vim'
 
-imap <expr><TAB> neosnippet#expandable_or_jumpable() ?
- \ "\<Plug>(neosnippet_expand_or_jump)"
- \: pumvisible() ? "\<C-n>" : "\<TAB>"
-smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
- \ "\<Plug>(neosnippet_expand_or_jump)"
- \: "\<TAB>"
+imap <C-a>     <Plug>(neosnippet_expand_or_jump)
+smap <C-a>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-a>     <Plug>(neosnippet_expand_target)
 
 autocmd InsertLeave * NeoSnippetClearMarkers
 
