@@ -34,3 +34,19 @@ nnoremap <Space>n :VimFiler -buffer-name=explorer
   \ -split -simple -winwidth=35 -toggle -no-quit<CR>
 
 NeoBundle 'scrooloose/nerdcommenter'
+
+NeoBundle 'Lokaltog/vim-easymotion'
+let g:EasyMotion_smartcase = 1
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_use_smartsign_us = 1
+let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyz'
+
+nmap sd <Plug>(easymotion-s)
+
+map n <Plug>(easymotion-next)
+map N <Plug>(easymotion-prev)
+
+map sl <Plug>(easymotion-lineforward)
+map sj <Plug>(easymotion-j)
+map sk <Plug>(easymotion-k)
+map sh <Plug>(easymotion-linebackward)
