@@ -1,3 +1,5 @@
+NeoBundle 'ervandew/supertab'
+
 NeoBundle 'tpope/vim-fugitive'
 
 NeoBundle 'Raimondi/delimitMate'
