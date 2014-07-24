@@ -32,3 +32,5 @@ NeoBundle 'Shougo/vimfiler.vim'
 
 nnoremap <Space>n :VimFiler -buffer-name=explorer
   \ -split -simple -winwidth=35 -toggle -no-quit<CR>
+
+NeoBundle 'scrooloose/nerdcommenter'
