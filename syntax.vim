@@ -13,4 +13,5 @@ NeoBundle 'tpope/vim-markdown'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'wting/rust.vim'
 NeoBundle 'jnwhiteh/vim-golang'
+NeoBundle 'cespare/vim-toml'
 
