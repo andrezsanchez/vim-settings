@@ -2,6 +2,7 @@ set nocompatible
 
 set enc=utf8
 
+set autochdir
 set wildmenu
 set t_ut=
 

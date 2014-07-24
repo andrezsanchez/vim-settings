@@ -12,6 +12,7 @@ NeoBundle 'bling/vim-airline'
 
 NeoBundle 'DataWraith/auto_mkdir'
 
+let g:unite_enable_ignore_case = 1
 let g:unite_source_grep_default_opts =
 \ '--line-numbers --nocolor --nogroup --hidden' .
 \ ' --ignore ''.git'' --ignore ''node_modules'''
@@ -27,6 +28,7 @@ call unite#custom#source('buffer,file,file_mru,file_rec',
 call unite#custom#source('file_rec,file_rec/async,file_mru,file,buffer,grep',
       \ 'ignore_pattern', join([
       \ '\.git/',
+      \ 'vendor/',
       \ 'node_modules/'
       \ ], '\|'))
 
