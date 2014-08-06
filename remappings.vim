@@ -1,3 +1,6 @@
+" remap Ctrl-c to Esc because ctrl-C won't send a InsertLeave event
+imap <C-c> <esc>
+
 nnoremap z <C-w>
 
 nnoremap <S-m> :tabprevious<CR>
