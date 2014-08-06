@@ -1,6 +1,7 @@
 " Syntax highlighting stuffz
 
 NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'elzr/vim-json'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'mintplant/vim-literate-coffeescript'
 NeoBundle 'digitaltoad/vim-jade'
