@@ -1,7 +1,9 @@
 " Syntax highlighting stuffz
 
-NeoBundle 'pangloss/vim-javascript'
+let g:vim_json_syntax_conceal = 0
 NeoBundle 'elzr/vim-json'
+
+NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'mintplant/vim-literate-coffeescript'
 NeoBundle 'digitaltoad/vim-jade'
