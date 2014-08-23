@@ -7,7 +7,6 @@ set wildmenu
 set t_ut=
 
 set number
-set relativenumber
 set linebreak
 set showbreak=+++
 set textwidth=100
