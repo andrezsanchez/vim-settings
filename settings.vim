@@ -2,7 +2,6 @@ set nocompatible
 
 set enc=utf8
 
-set autochdir
 set wildmenu
 set t_ut=
 
@@ -37,8 +36,6 @@ set backspace=indent,eol,start
 set nobackup
 set nowritebackup
 set noswapfile
-
-" set autochdir
 
 " show only filename in tab name, not full path
 set guitablabel=%t
