@@ -1,4 +1,4 @@
-if currentcomputer == 'windows'
+if has('win32')
   set diffexpr=MyDiff()
   function MyDiff()
     let opt = '-a --binary '
