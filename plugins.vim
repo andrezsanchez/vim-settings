@@ -34,9 +34,6 @@ let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyz'
 
 nmap sd <Plug>(easymotion-s)
 
-map n <Plug>(easymotion-next)
-map N <Plug>(easymotion-prev)
-
 map sl <Plug>(easymotion-lineforward)
 map sj <Plug>(easymotion-j)
 map sk <Plug>(easymotion-k)
