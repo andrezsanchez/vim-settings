@@ -18,19 +18,6 @@ let g:unite_source_grep_default_opts =
 \ ' --ignore ''.git'' --ignore ''node_modules'''
 
 NeoBundle 'Shougo/unite.vim'
-nnoremap <Space>f :<C-u>Unite -start-insert file_rec<CR>
-
-call unite#filters#matcher_default#use(['matcher_fuzzy'])
-
-call unite#custom#source('buffer,file,file_mru,file_rec',
-\ 'sorters', 'sorter_rank')
-
-call unite#custom#source('file_rec,file_rec/async,file_mru,file,buffer,grep',
-      \ 'ignore_pattern', join([
-      \ '\.git/',
-      \ 'vendor/',
-      \ 'node_modules/'
-      \ ], '\|'))
 
 NeoBundle 'Shougo/vimfiler.vim'
 
