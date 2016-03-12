@@ -10,6 +10,7 @@ NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'wavded/vim-stylus'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'mxw/vim-jsx'
+NeoBundle 'leafo/moonscript-vim'
 
 NeoBundle 'tpope/vim-markdown'
 
@@ -18,4 +19,6 @@ NeoBundle 'wting/rust.vim'
 NeoBundle 'cespare/vim-toml'
 
 autocmd BufNewFile,BufReadPost *.go set filetype=go
+autocmd BufNewFile,BufReadPost *.moon set filetype=moon
+autocmd BufNewFile,BufReadPost *.jade set filetype=jade
 NeoBundle 'yaymukund/vim-go-syntax'
