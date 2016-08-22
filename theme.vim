@@ -1,6 +1,6 @@
-NeoBundle 'flazz/vim-colorschemes'
-NeoBundle 'morhetz/gruvbox'
-NeoBundle 'chriskempson/vim-tomorrow-theme'
+call dein#add('flazz/vim-colorschemes')
+call dein#add('morhetz/gruvbox')
+call dein#add('chriskempson/vim-tomorrow-theme')
 
 " colorscheme jellybeans
 " colorscheme moria

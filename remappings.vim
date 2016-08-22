@@ -1,10 +1,10 @@
 " remap Ctrl-c to Esc because ctrl-C won't send a InsertLeave event
 imap <C-c> <esc>
 
-nnoremap z <C-w>
+" nnoremap z <C-w>
 
-nnoremap <S-m> :tabprevious<CR>
-nnoremap m     :tabnext<CR>
+nnoremap gr :tabprevious<CR>
+" nnoremap m     :tabnext<CR>
 nnoremap t     :tabnew<CR>
 
 nnoremap sv :w<CR>
@@ -23,7 +23,7 @@ nnoremap <Space>s :Gstatus<CR>
 nnoremap <Space>c :Gcommit<CR>
 nnoremap <Space>d :Gdiff<CR>
 
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'tpope/vim-repeat'
+call dein#add('tpope/vim-surround')
+call dein#add('tpope/vim-repeat')
 
-NeoBundle 'bkad/CamelCaseMotion'
+" call dein#add('bkad/CamelCaseMotion')

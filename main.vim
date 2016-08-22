@@ -1,11 +1,10 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/neobundle.vim
+set runtimepath^=~/.vim/bundle/repos/github.com/Shougo/dein.vim/
 
-call neobundle#begin(expand('~/.vim/bundle/'))
-
-NeoBundleFetch 'Shougo/neobundle.vim'
+call dein#begin('~/.vim/bundle/')
+call dein#add('Shougo/dein.vim')
 
 source ./editorconfig.vim
 source ./windows.vim
@@ -18,8 +17,11 @@ source ./remappings.vim
 
 source ./settings.vim
 
-call neobundle#end()
+call dein#end()
 
 filetype plugin indent on
 
-NeoBundleCheck
+if dein#check_install()
+ call dein#install()
+endif
+" NeoBundleCheck

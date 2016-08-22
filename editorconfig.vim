@@ -1,3 +1,3 @@
 if has('python')
-  NeoBundle 'editorconfig/editorconfig-vim'
+  call dein#add('editorconfig/editorconfig-vim')
 endif

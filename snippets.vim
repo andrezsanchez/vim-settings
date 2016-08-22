@@ -1,6 +1,6 @@
-NeoBundle 'AndreZSanchez/neosnippet-snippets'
+call dein#add('AndreZSanchez/neosnippet-snippets')
 
-NeoBundle 'Shougo/neosnippet.vim'
+call dein#add('Shougo/neosnippet.vim')
 
 imap <C-a>     <Plug>(neosnippet_expand_or_jump)
 smap <C-a>     <Plug>(neosnippet_expand_or_jump)
